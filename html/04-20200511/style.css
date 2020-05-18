@@ -1,0 +1,80 @@
+* {
+    margin: auto;
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+.daddy {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.img {
+    width: 65%;
+    text-align: center;
+    background-color: #ffb959;
+}
+
+img {
+    width: 80%;
+}
+
+.content {
+    width: 35%;
+    margin: auto 30px;
+}
+
+h2 {
+    font-size: 50px;
+    margin-bottom: 50px;
+    color: #ff564f;
+}
+
+.form {
+    margin: 20px auto;
+}
+
+label {
+    display: block;
+    margin: 5px auto;
+    color: gray;
+    font-size: 20px;
+}
+
+input {
+    border-top: 0px;
+    border-right: 0px;
+    border-left: 0px;
+    margin-right: 10px;
+    font-size: 15px;
+}
+
+.terms {
+    color: #ff564f;
+}
+
+.sign {
+    display: flex;
+}
+
+.sign-up {
+    width: 50%;
+}
+
+.sign-in {
+    width: 50%;
+    text-align: end;
+}
+
+button {
+    padding: 15px 35px;
+    border-radius: 15px;
+    background-image: linear-gradient(#ffb959, #ffda6b);
+    font-size: 17px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 17px;
+    color: black;
+    color: #ff564f;
+}

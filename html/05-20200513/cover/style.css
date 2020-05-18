@@ -1,0 +1,66 @@
+* {
+    margin: auto;
+}
+
+body {
+    height: 100vh;
+    background-color: #333333;
+}
+
+.c-header {
+    height: 10%;
+}
+
+.c-header .col-6 h2 {
+    text-align: center;
+    color: white;
+}
+
+.c-header .col-6 a {
+    margin: 15px;
+    padding-bottom: 8px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.c-header .col-6 a:hover {
+    border-bottom: 4px solid white;
+}
+
+.c-content {
+    height: 80%;
+}
+
+.c-content .col-8 {
+    color: white;
+}
+
+.c-content .col-8 h1 {
+    font-size: 40px;
+}
+
+.c-content .col-8 p {
+    font-size: 20px;
+}
+
+.c-content .col-8 button {
+    padding: 10px 20px;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 7px;
+    color: #343a40;
+}
+
+.c-footer {
+    height: 10%;
+}
+
+.c-footer .col-12 p {
+    color: #8d8d8d;
+}
+
+.c-footer .col-12 a {
+    text-decoration: none;
+    color: white;
+}

@@ -1,0 +1,23 @@
+.c-first .col-12 .block-1 {
+    height: 500px;
+    background-color: #2b8c44;
+}
+
+.c-second .col-12 .block-1 {
+    height: 500px;
+    background-color: #2b2d42;
+}
+
+.c-third .col-12 .block-1 {
+    height: 500px;
+    background-color: #6834b3;
+}
+
+.footer {
+    height: 55px;
+    background-color: gray;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+}
