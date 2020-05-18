@@ -1,0 +1,70 @@
+.Header {
+    &__row {
+        &__col-12 {
+            &__h1 {
+                &--color {
+                    color: white;;
+                }
+
+                &--font-size {
+                    font-size: 60px;
+                }
+
+                &--purple-color {
+                    background-color: #563d7c;
+                }
+
+                &--size {
+                    height: 70px;
+                    width: 70px;
+                    border-radius: 15px;
+                }
+
+                &--center {
+                    line-height: 60px;
+                    text-align: center;
+                    margin: auto;
+                }
+            }
+
+            &__p {
+                &--center {
+                    text-align: center;
+                }
+
+                &--font-size-title {
+                    font-size: 32px;
+                    font-weight: 500;
+                }
+
+                &--font-size-description {
+                    font-size: 20px;
+                    font-weight: lighter;
+                }
+            }
+        }
+    }
+}
+
+.Footer {
+    &__row {
+        &__col-12 {
+            &__p {
+                &--center{
+                    text-align: center;
+                } 
+            }
+            &__link {
+                &--center {
+                    text-align: center;;
+                }
+
+                &__a {
+                    &--font {
+                        padding: 0 5px !important;
+                    }   
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,50 @@
+.Header__row__col-12__h1--color {
+  color: white;
+}
+
+.Header__row__col-12__h1--font-size {
+  font-size: 60px;
+}
+
+.Header__row__col-12__h1--purple-color {
+  background-color: #563d7c;
+}
+
+.Header__row__col-12__h1--size {
+  height: 70px;
+  width: 70px;
+  border-radius: 15px;
+}
+
+.Header__row__col-12__h1--center {
+  line-height: 60px;
+  text-align: center;
+  margin: auto;
+}
+
+.Header__row__col-12__p--center {
+  text-align: center;
+}
+
+.Header__row__col-12__p--font-size-title {
+  font-size: 32px;
+  font-weight: 500;
+}
+
+.Header__row__col-12__p--font-size-description {
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+.Footer__row__col-12__p--center {
+  text-align: center;
+}
+
+.Footer__row__col-12__link--center {
+  text-align: center;
+}
+
+.Footer__row__col-12__link__a--font {
+  padding: 0 5px !important;
+}
+/*# sourceMappingURL=style.css.map */
