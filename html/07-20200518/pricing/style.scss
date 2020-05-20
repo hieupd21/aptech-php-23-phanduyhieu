@@ -1,0 +1,20 @@
+.Header {
+    &__row {
+        &__col-2 {
+            &__h5 {
+                margin-bottom: 0;
+                font-weight: 400;
+            }
+        }
+
+        &__col-6 {
+            &__a {
+                padding: 0.7rem;
+            }
+
+            &__button {
+                margin: 0.5rem;
+            }
+        }
+    }
+}
