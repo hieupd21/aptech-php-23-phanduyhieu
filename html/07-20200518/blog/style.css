@@ -1,3 +1,21 @@
-h1, h2, h3, h4, h5, h6 {
-    font-family: 'Playfair Display', serif !important;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Playfair Display', serif;
 }
+
+.Title__row {
+  border-radius: 5px;
+}
+
+.Card__row__col-6__div {
+  border-radius: 5px;
+}
+
+.Card__row__col-6__div__thumbnail {
+  border-radius: 0 5px 5px 0;
+}
+/*# sourceMappingURL=style.css.map */

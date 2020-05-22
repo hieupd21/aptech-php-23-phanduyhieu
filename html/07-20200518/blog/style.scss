@@ -1,0 +1,27 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Playfair Display', serif;
+}
+
+.Title {
+    &__row {
+        border-radius: 5px;
+    }
+}
+
+.Card {
+    &__row {
+        &__col-6 {
+            &__div {
+                border-radius: 5px;
+                &__thumbnail {
+                    border-radius: 0 5px 5px 0;
+                }
+            }
+        }
+    }
+}
