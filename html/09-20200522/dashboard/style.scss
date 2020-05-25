@@ -1,0 +1,22 @@
+.Category {
+    &__row {
+        &__col-2 {
+            &__up {
+                &__block-1 {
+                    &__icon {
+                        width: 15%;
+                        text-align: center;
+                        color: #999;
+                    }
+
+                    &__text {
+                        width: 80%;
+                        &__a {
+                            font-weight: 500;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
