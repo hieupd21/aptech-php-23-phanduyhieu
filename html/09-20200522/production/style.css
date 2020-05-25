@@ -1,0 +1,23 @@
+.big {
+  background-color: #252626;
+}
+
+.big__container__row__col-12__ul__li__a {
+  color: #999;
+}
+
+.big__container__row__col-12__ul__li__a:hover {
+  color: white;
+}
+
+.Card__row__col-12 {
+  height: 500px;
+}
+
+.Card__row__col-12__box {
+  height: 300px;
+  width: 70%;
+  background-color: white;
+  border-radius: 25px 25px 0 0;
+}
+/*# sourceMappingURL=style.css.map */
