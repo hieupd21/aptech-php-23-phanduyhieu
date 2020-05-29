@@ -27,33 +27,28 @@ var data = {
 };
 
 function addElement() {
-    var keys = Object.keys(data.users);
-    console.log(keys);
-
     var tableBodyElement = document.getElementById('table-body');
-    for (var i = 0; i < keys.length; i++) {
+    for (var i = 0; i < data.users.length; i++) {
         var tableRow = document.createElement('tr');
         tableBodyElement.appendChild(tableRow);
 
         var tableData1 = document.createElement('td');
-        // var tdNoiDung = document.createTextNode(data.users[i].id);
-        // tableData1.appendChild(tdNoiDung);
-
+        tableData1.innerHTML = data.users[i].id;
 
         var tableData2 = document.createElement('td');
-        tableData2.innerHTML = keys[1];
+        tableData2.innerHTML = data.users[i].name;
 
         var tableData3 = document.createElement('td');
-        tableData3.innerHTML = keys[2];
+        tableData3.innerHTML = data.users[i].password;
 
         var tableData4 = document.createElement('td');
-        tableData4.innerHTML = keys[3];
+        tableData4.innerHTML = data.users[i].email;
 
         var tableData5 = document.createElement('td');
-        tableData5.innerHTML = keys[4];
+        tableData5.innerHTML = data.users[i].created_at;
 
         var tableData6 = document.createElement('td');
-        tableData6.innerHTML = keys[5];
+        tableData6.innerHTML = data.users[i].updated_at;
 
         tableRow.appendChild(tableData1);
         tableRow.appendChild(tableData2);
@@ -61,5 +56,7 @@ function addElement() {
         tableRow.appendChild(tableData4);
         tableRow.appendChild(tableData5);
         tableRow.appendChild(tableData6);
+
+        console.log(data.users[i]);
     }
 }
