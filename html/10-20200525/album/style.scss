@@ -1,0 +1,24 @@
+.Album {
+    &__row {
+        &__col-12 {
+            &__box {
+                height: 225px;
+                &__p {
+                    color: white;
+                    text-align: center;
+                    line-height: 225px;
+                }
+            }
+        }
+    }
+}
+
+.Footer {
+    &__row {
+        &__col-8 {
+            &__p {
+                margin-bottom: 4px;
+            }
+        }
+    }
+}
