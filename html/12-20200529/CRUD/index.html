@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="row justify-content-between align-items-center mt-3">
+            <div class="col-2">
+                <button type="button" class="btn btn-primary rounded-0 font-weight-bold">Home</button>
+            </div>
+            <div class="col-6 text-center">
+                <h1 class="m-0 font-weight-bold">USER CRUD LARAVEL</h1>
+            </div>
+            <div class="col-2"></div>
+        </div>
+    </div>
+
+    <hr>
+
+    <div class="ajax-create" id="create">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <span class="badge badge-success">INDEX PAGE</span>
+                </div>
+                <div class="col-12 mt-3">
+                    <table class="table table-bordered text-center">
+                        <thead>
+                          <tr>
+                            <td scope="col" class="font-weight-bold">#</td>
+                            <td scope="col" class="font-weight-bold">Name</td>
+                            <td scope="col" class="font-weight-bold">Email</td>
+                            <td scope="col" class="font-weight-bold">Action</td>
+                          </tr>
+                        </thead>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>   
+
+    <hr>
+
+    <div class="container">
+        <div class="row justify-content-between align-items-center">
+            <div class="col-3">
+                <p class="font-weight-bold">USER CRUD LARAVEL</p>
+            </div>
+            <div class="col-3 text-right">
+                <button type="button" class="btn btn-info rounded-0 font-weight-bold" onclick="loadCreate()">CREATE A NEW USER</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
