@@ -11,4 +11,19 @@
 .Footer__row__col-8__p {
   margin-bottom: 4px;
 }
+
+.div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.show-hide {
+  display: none;
+}
 /*# sourceMappingURL=style.css.map */
