@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+
+<body>
+
+    <table>
+        <thead>
+            <tr>
+                <th>id</th>
+                <th>name</th>
+                <th>email</th>
+                <th>password</th>
+                <th>created_at</th>
+                <th>updated_at</th>
+            </tr>
+        </thead>
+        <tbody id="table-body"></tbody>
+    </table>
+    <button id="nutAn">Click me</button>
+    <script>
+        $(document).ready(function () {
+            $('#nutAn').click(function () {
+                $.get('https://namcoi.com/du-an/aptech-php-laravel-crud-user/public/api/users', function (data, status) {
+                    for (var i = 0; i < data.users.length; i++) {
+                        console.log(data.users);
+                        var tr = document.createElement('tr');
+                        var keyArray = ["id","name","email","password","create_at","update_at"];
+                        for (var j = 0; j < keyArray.length; j++) {
+                            var td = document.createElement('td');
+                            td.innerHTML = data.users[i][keyArray[j]];
+                            tr.appendChild(td);
+                        }
+                        $('#table-body').append(tr);
+                    }
+                });
+            });
+        });
+    </script>
+
+</body>
+
+</html>
