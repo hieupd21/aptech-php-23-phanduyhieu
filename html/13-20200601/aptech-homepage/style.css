@@ -1,4 +1,16 @@
 * {
   font-family: 'Montserrat', sans-serif;
 }
+
+@media screen and (max-width: 992px) {
+  .container__row__col-lg-2 {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .container-fluid__row__col-12__carousel {
+    display: none;
+  }
+}
 /*# sourceMappingURL=style.css.map */

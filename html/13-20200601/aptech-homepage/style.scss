@@ -1,3 +1,25 @@
 * {
     font-family: 'Montserrat', sans-serif;
 }
+
+@media screen and (max-width: 992px) {
+    .container {
+        &__row {
+            &__col-lg-2 {
+                display: none;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .container-fluid {
+        &__row {
+            &__col-12 {
+                &__carousel {
+                    display: none;
+                }
+            }
+        }
+    }
+}
