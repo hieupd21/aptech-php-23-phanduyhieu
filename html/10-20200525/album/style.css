@@ -12,18 +12,7 @@
   margin-bottom: 4px;
 }
 
-.div {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-transition: 0.4s;
-  transition: 0.4s;
-}
-
 .show-hide {
-  display: none;
+  display: none !important;
 }
 /*# sourceMappingURL=style.css.map */

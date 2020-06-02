@@ -23,12 +23,12 @@
     }
 }
 
-.div {
-    display: flex;
-    justify-content: space-between;
-    transition: 0.4s;
-}
+// .div {
+//     display: flex;
+//     justify-content: space-between;
+//     transition: 0.4s;
+// }
 
 .show-hide  {
-    display: none;
+    display: none !important;
 }
