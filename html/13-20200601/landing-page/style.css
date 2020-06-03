@@ -1,0 +1,34 @@
+* {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.Slide__row__col-12__d-flex__form-control {
+  width: 75%;
+}
+
+.Slide__row__col-12__d-flex__btn-danger {
+  width: 22%;
+}
+
+@media screen and (max-width: 768px) {
+  .Slide__row__col-12__h2 {
+    font-size: 17px;
+  }
+  .Slide__row__col-12__d-flex {
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
+  }
+  .Slide__row__col-12__d-flex__form-control {
+    width: 100%;
+  }
+  .Slide__row__col-12__d-flex__btn-danger {
+    width: 100%;
+  }
+}
+
+.Author__row__col-12__img {
+  border-radius: 50%;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,53 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.Slide {
+    &__row {
+        &__col-12 {
+            &__d-flex {
+                &__form-control {
+                    width: 75%;
+                }
+
+                &__btn-danger {
+                    width: 22%;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .Slide {
+        &__row {
+            &__col-12 {
+                &__h2 {
+                    font-size: 20px;
+                }
+
+                &__d-flex {
+                    flex-direction: column !important;
+                    
+                    &__form-control {
+                        width: 100%;
+                    }
+    
+                    &__btn-danger {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.Author {
+    &__row {
+        &__col-12 {
+            &__img {
+                border-radius: 50%;
+            }
+        }
+    }
+}
