@@ -1,0 +1,44 @@
+* {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.Card__row__col-4__card__card-body-1 {
+  background-image: url("img/1.jpg");
+  height: 295px;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+.Card__row__col-4__card__card-body-2 {
+  background-image: url("img/2.jpg");
+  height: 295px;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+.Feature__row__col-8__card {
+  width: 49%;
+}
+
+.Feature__row__col-8__card__img {
+  background-image: url("img/2.jpg");
+  height: 150px;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+.Feature__row__col-4__card__img {
+  background-image: url("img/2.jpg");
+  height: 370px;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+.show-hide {
+  display: none !important;
+}
+/*# sourceMappingURL=style.css.map */

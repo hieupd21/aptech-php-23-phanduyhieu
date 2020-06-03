@@ -1,0 +1,61 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.Card {
+    &__row {
+        &__col-4 {
+            &__card {
+                &__card-body-1 {
+                    background-image: url("img/1.jpg");
+                    height: 295px;
+                    width: 100%;
+                    background-size: cover;
+                    background-position: center;
+                }
+
+                &__card-body-2 {
+                    background-image: url("img/2.jpg");
+                    height: 295px;
+                    width: 100%;
+                    background-size: cover;
+                    background-position: center;
+                }
+            }
+        }
+    }
+}
+
+.Feature {
+    &__row {
+        &__col-8 {
+            &__card {
+                width: 49%;
+
+                &__img {
+                    background-image: url("img/2.jpg");
+                    height: 150px;
+                    width: 100%;
+                    background-size: cover;
+                    background-position: center;
+                } 
+            }
+        }
+
+        &__col-4 {
+            &__card {
+                &__img {
+                    background-image: url("img/2.jpg");
+                    height: 370px;
+                    width: 100%;
+                    background-size: cover;
+                    background-position: center;
+                }
+            }
+        }
+    }
+}
+
+.show-hide  {
+    display: none !important;
+}
