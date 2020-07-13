@@ -65,7 +65,7 @@ if (isset($_GET['edit'])) {
     //     $name = $row['name'];
     //     $location = $row['location'];
     // }
-    $row = $result2->fetch_array();
+    $row = $result2->fetch_assoc();
     $name = $row['name'];
     $location = $row['location'];
 
